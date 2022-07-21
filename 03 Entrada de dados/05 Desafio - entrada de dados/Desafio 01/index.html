@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <span>Name:</span>
+        <input type="text" id="name">
+        <button id="button">clicar</button>
+    </div>
+    <div class="list listgroup">
+        <span id="textname">Seu nome</span>
+    </div>
+</body>
+
+<script>
+   
+
+    //let nameOld = prompt("qual é o seu nome?")
+    //let idaeOld = prompt("qual é a sua idade?")
+    //console.log("Meu nome é:" + nameOld + "idade: "+ idaeOld)
+
+    const name = document.querySelector("#name")
+    const textname = document.querySelector("#textname")
+    
+    button.onclick = ()=>{
+        textname.textContent = name.value
+        //textname.innerHTML = name.value
+    }
+    
+    
+/*
+    button.addEventListener('click', event=>{
+    textname.textContent = name.value
+   })
+
+   */
+    
+
+
+
+
+
+
+</script>
+</html>

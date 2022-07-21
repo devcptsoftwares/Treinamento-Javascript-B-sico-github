@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>testes</title>
+
+</head>
+<body>
+
+  <p id="texto"></p>
+  
+  
+</body>
+
+  <script>
+
+    /*
+    Quando a página HTML é carregada, o método 
+    document.getElementById(elementoID) retorna 
+    o elemento id na função definida por um script. 
+    No exemplo a seguir, a variável x recebe o 
+    elemento id="demo". Com a utilização da propriedade 
+    element.innerHTML, obtém-se o conteúdo do elemento 
+    id que será mostrado na tela
+
+    https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById
+    */
+   
+    var carros = 'Honda';
+    console.log(carros);
+
+    document.getElementById("texto").innerHTML = carros;
+
+
+  </script>
+
+</html>
